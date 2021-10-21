@@ -1,0 +1,94 @@
+
+.body {
+  width: 100%;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  background-image: url("cat126IMGL6511_TP_V.jpg");
+  background-size: cover;
+  background-position: 0 -100px;
+  height: 180px;
+  color: #dddddd;
+  opacity: 80%;
+}
+
+header>h1 {
+  position: absolute;
+  margin: 48px 0 32px 48px;
+  font-size: 32px;
+}
+
+header>p {
+  position: absolute;
+  margin: 96px 0 0 48px;
+}
+
+header>p>span {
+  color:#88dd88;
+  font-weight: bold;
+  padding: 8px;
+}
+
+main {
+  display: block;
+  padding-top: 32px;
+  margin-bottom: 48px;
+}
+
+main h2 {
+  display: inline-block;
+  border-left: 12px solid #4488ff;
+  border-right: 12px solid #4488ff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+main li {
+  margin-top: 1em;
+  list-style-position: outside;
+  padding-left: 8px;
+}
+
+main ul>li {
+  list-style-type: square;
+}
+
+main section{
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+main section a {
+  background-color: #88dd88;
+  border: 2px solid #44aa44;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 8px 24px 8px 24px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+main section a:visited {
+  color: black;
+}
+
+main section a:active {
+  color: black;
+}
+
+main section a:hover {
+  opacity: 1;
+}
+
+footer {
+  border-top: 1px solid #dddddd;
+  color: #888888
+}
